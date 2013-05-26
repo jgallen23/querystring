@@ -1,0 +1,14 @@
+{
+  "name": "querystring",
+  "description": "Simple querystring lib with no dependencies",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jgallen23/querystring",
+  "license": "MIT",
+  "copyright": "Greg Allen",
+  "main": "dist/querystring.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "*"
+  }
+}
