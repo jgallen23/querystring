@@ -17,13 +17,13 @@ Simple querystring lib with no dependencies.  Mimics the node querystring librar
 
 ###Parse
 
-```
+```javascript
 querystring.parse('foo=bar&baz=qux&baz=quux&corge')
 // returns { foo: 'bar', baz: ['qux', 'quux'], corge: '' }
 ```
 
 ###Stringify
-```
+```javascript
 querystring.stringify({ foo: 'bar', baz: ['qux', 'quux'], corge: '' })
 // returns 'foo=bar&baz=qux&baz=quux&corge='
 ```
