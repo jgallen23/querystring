@@ -18,6 +18,12 @@ Simple querystring lib with no dependencies.  Mimics the node querystring librar
 ###Parse
 
 ```javascript
+//url http://localhost/?foo=bar&cow=moo
+querystring.parse(); //no argument passed in assumes window.location.search
+// returns { foo: 'bar', cow: 'moo' }
+```
+
+```javascript
 querystring.parse('foo=bar&baz=qux&baz=quux&corge')
 // returns { foo: 'bar', baz: ['qux', 'quux'], corge: '' }
 ```
