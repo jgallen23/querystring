@@ -12,6 +12,9 @@ suite('querystring', function() {
     test('should return a parsed object using the window.location.search if no argument is passed',function(){
       assert.deepEqual(querystring.parse(),querystring.parse(window.location.search));
     });
+    test('should decode properly encoded url parameters',function(){
+      assert.deepEqual(querystring.parse('name=Antonio%20Laguna'),{name: 'Antonio Laguna'});
+    });
   });
   suite('#stringify()', function(){
     test('should return an empty String when no value is present',function(){

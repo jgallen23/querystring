@@ -31,6 +31,8 @@ var querystring = {
           elValue = '';
         }
 
+        elValue = decodeURIComponent(elValue);
+
         if (parsed[keyValue] === undefined){
           parsed[keyValue] = elValue;
         }
