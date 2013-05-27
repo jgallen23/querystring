@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "grunt": "~0.4.1",
+    "mocha": "~1.10.0",
     "grunt-reloadr": "~0.1.2",
     "grunt-mocha": "~0.3.0",
     "grunt-contrib-concat": "~0.3.0",
