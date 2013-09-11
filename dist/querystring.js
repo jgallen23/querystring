@@ -1,3 +1,10 @@
+/*!
+ * querystring - Simple querystring lib with no dependencies
+ * v0.1.0
+ * https://github.com/jgallen23/querystring
+ * copyright Greg Allen 2013
+ * MIT License
+*/
 var querystring = {
   parse : function(string){
     var parsed = {};
