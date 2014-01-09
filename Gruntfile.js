@@ -53,7 +53,8 @@ module.exports = function(grunt) {
       all: {
         src: 'test/index.html',
         options: {
-          run: true
+          run: true,
+          reporter: 'Spec'
         }
       }
     },
